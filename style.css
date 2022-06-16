@@ -9,18 +9,26 @@
 .header_section {
   position: absolute;
   width: 1340px;
-  height: 916px;
+  height: 900px;
   left: 0;
   top: 1px;
   background: #fff;
   border-bottom-left-radius: 70px 60px;
 }
 
-.logo {
+.logo{
   display: flex;
   position: absolute;
   left: 143px;
   top: 10px;
+  width: 100px;
+  height: 20px;
+  font-family: "Poppins,Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 20px;
+  color: #6070ff;
 }
 
 nav {
@@ -44,20 +52,19 @@ ul {
 nav ul li a {
   width: 62px;
   height: 20px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
   line-height: 20px;
   display: flex;
-  align-items: center;
-  text-align: center;
+  position: relative;
+  flex-direction: column;
   color: #344563;
   text-decoration: none;
   padding: 10px;
 }
-
-.Header_bg {
+.desktop-Header_bg {
   background-image: url(Images/Headerbg.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -84,7 +91,7 @@ nav ul li a {
 .banner_header {
   width: 920px;
   height: 122px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 48px;
@@ -99,7 +106,7 @@ nav ul li a {
   position: absolute;
   width: 920px;
   height: 98px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -196,7 +203,7 @@ nav ul li a {
   left: 650px;
   width: 120px;
   height: 24px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   position: absolute;
   font-weight: 400;
@@ -219,7 +226,7 @@ nav ul li a {
   left: 780px;
   width: 38px;
   height: 24px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -417,7 +424,7 @@ nav ul li a {
   left: 140px;
   width: 120px;
   height: 24px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   position: absolute;
   font-weight: 400;
@@ -440,7 +447,7 @@ nav ul li a {
   left: 280px;
   width: 38px;
   height: 24px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -571,7 +578,106 @@ nav ul li a {
   cursor: pointer;
   transition: all 1s ease-in-out;
 }
-
+@media screen and (max-width: 750px) {
+  .card-works-two {
+    position: absolute;
+    width: 350px;
+    height: 552px;
+    top: 1600px;
+    left: 20px;
+  }
+  .Portfolio_two {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    left: 0;
+    top: -120px;
+  }
+  .Project_Title_two {
+    position: absolute;
+    width: 295px;
+    height: 36px;
+    left: 20px;
+    top: 200px;
+  }
+  .facbook_txt {
+    top: 265px;
+    left: 20px;
+    width: 55px;
+    height: 16px;
+    position: absolute;
+  }
+  .Count_two {
+    top: 283px;
+    left: 93px;
+    width: 100px;
+    height: 24px;
+    position: absolute;
+  }
+  .Devlop_txt {
+    position: absolute;
+    top: 258px;
+    left: 110px;
+    width: 120px;
+    height: 24px;
+  }
+  .Counter_t_two {
+    top: 283px;
+    left: 225px;
+    width: 100px;
+    height: 24px;
+    position: absolute;
+  }
+  .date_two {
+    position: absolute;
+    top: 253px;
+    left: 250px;
+    width: 120px;
+    height: 24px;
+  }
+  .Primary-Text_two {
+    position: absolute;
+    width: 320px;
+    height: 76px;
+    left: 20px;
+    top: 295px;
+  }
+  .htm {
+    position: absolute;
+    width: 25px;
+    height: 20px;
+    left: 15px;
+    top: 400px;
+  }
+  .rubby {
+    position: absolute;
+    width: 88px;
+    height: 20px;
+    left: 70px;
+    top: 400px;
+  }
+  .cs {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 190px;
+    top: 400px;
+  }
+  .jvscr {
+    position: absolute;
+    width: 70px;
+    height: 20px;
+    left: 250px;
+    top: 400px;
+  }
+  .secon_btn {
+    position: relative;
+    width: 150px;
+    height: 55px;
+    left: 0px;
+    top: 100px;
+  }
+}
 .card-works-three {
   display: grid;
   align-content: center;
@@ -603,6 +709,127 @@ nav ul li a {
   box-sizing: border-box;
   border-radius: 16px;
 }
+@media screen and (max-width: 750px) {
+  .card-works-one {
+    position: absolute;
+    width: 350px;
+    height: 552px;
+    top: 970px;
+    left: 20px;
+  }
+  .Portfolio {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    left: 0;
+    top: -120px;
+  }
+  .Project_Title {
+    position: absolute;
+    width: 295px;
+    height: 36px;
+    left: 20px;
+    top: 200px;
+  }
+  .CANOPY {
+    top: 265px;
+    left: 20px;
+    width: 55px;
+    height: 16px;
+    position: absolute;
+  }
+  .Counter_one {
+    top: 283px;
+    left: 88px;
+    width: 100px;
+    height: 24px;
+    position: absolute;
+  }
+  .Back_text {
+    position: absolute;
+    top: 258px;
+    left: 110px;
+    width: 120px;
+    height: 24px;
+  }
+  .Counter_two {
+    top: 283px;
+    left: 225px;
+    width: 100px;
+    height: 24px;
+    position: absolute;
+  }
+  .date {
+    position: absolute;
+    top: 253px;
+    left: 250px;
+    width: 120px;
+    height: 24px;
+  }
+  .Primary-Text {
+    position: absolute;
+    width: 295px;
+    height: 76px;
+    left: 20px;
+    top: 300px;
+  }
+  .html {
+    position: absolute;
+    width: 22px;
+    height: 20px;
+    left: 15px;
+    top: 390px;
+  }
+  .card-works-three .rubby_rail {
+    position: absolute;
+    width: 89px;
+    height: 20px;
+    left: 230px;
+    top: 390px;
+  }
+  .css {
+    position: absolute;
+    width: 30px;
+    height: 20px;
+    left: 70px;
+    top: 390px;
+  }
+  .jvscrp {
+    position: absolute;
+    width: 70px;
+    height: 20px;
+    left: 130px;
+    top: 390px;
+  }
+  .btn {
+    position: relative;
+    width: 150px;
+    height: 55px;
+    left: 0px;
+    top: 100px;
+  }
+  .card-works-three {
+    position: absolute;
+    width: 350px;
+    height: 552px;
+    top: 2225px;
+    left: 20px;
+  }
+  .rubby_rail {
+    position: absolute;
+    width: 75px;
+    height: 20px;
+    left: 185px;
+    top: 390px;
+  }
+  .card-works-four {
+    position: absolute;
+    width: 350px;
+    height: 552px;
+    top: 2850px;
+    left: 20px;
+  }
+}
 
 /* About section */
 .about {
@@ -633,7 +860,7 @@ nav ul li a {
 .about_header {
   width: 447px;
   height: 114px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -647,7 +874,7 @@ nav ul li a {
   position: absolute;
   width: 447px;
   height: 102px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -766,7 +993,7 @@ nav ul li a {
   left: 25px;
   right: 25px;
   top: 50%;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -800,7 +1027,7 @@ nav ul li a {
   left: 30px;
   right: 25px;
   top: 50%;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -833,7 +1060,7 @@ nav ul li a {
   height: 24px;
   left: 35px;
   top: 50%;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -863,7 +1090,7 @@ nav ul li a {
   left: 65px;
   right: 78px;
   top: 70%;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 25px;
@@ -971,7 +1198,7 @@ nav ul li a {
   top: 220px;
   width: 500px;
   height: 100px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -1005,7 +1232,7 @@ nav ul li a {
   position: absolute;
   width: 350px;
   height: 170px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-size: 15px;
   left: 490px;
@@ -1035,4 +1262,321 @@ nav ul li a {
   color: #fff;
   cursor: pointer;
   transition: all 1s ease-in-out;
+}
+
+@media (max-width: 750px) {
+  .logo {
+    display: flex;
+    left: 15px;
+    top: 10px;
+  }
+  .desktop-Header_bg {
+    display: none;
+  }
+  .Social_txt {
+    top: 350px;
+  }
+  .social_Media {
+    display: flex;
+    top: 380px;
+    gap: 15px;
+  }
+  #sideNav {
+    width: 360px;
+    height: 25vh;
+    display: flex;
+    position: absolute;
+    top: -700px;
+    left: -5px;
+    background: #6070ff;
+    transition: 0.3s;
+    z-index: 2;
+    border-radius: 16px;
+  }
+  nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+    position: absolute;
+    height: 160px;
+    width: 300px;
+    left: 10px;
+    top: -10px;
+  }
+  nav ul li a {
+    position: relative;
+    height: 24px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    margin: 40px 20px;
+  }
+
+  #menuBtn {
+    position: absolute;
+    left: 75.67%;
+    top: 27px;
+    bottom: 50%;
+    text-align: center;
+    border-radius: 5px;
+    z-index: 3;
+    cursor: pointer;
+  }
+
+  #menuBtn img {
+    width: 26px;
+    height: 26px;
+  }
+
+  .banner_txt {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 120px 24px;
+    gap: 10px;
+    top: 100px;
+    z-index: 1;
+    left: -5px;
+  }
+
+  .banner_header {
+    display: flex;
+    margin-top: -50px;
+    left: 24px;
+    width: 327px;
+    height: 150px;
+    font-family: "Crete Round", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: 0.37px;
+  }
+
+  .banner_pragrph {
+    display: flex;
+    margin-top: 110px;
+    width: 327px;
+    height: 146px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .mobile-Header_bg {
+    background-image: url(Images/header-shapes\ mobile@2x.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    width: 370px;
+    height: 600px;
+    left: -10px;
+    z-index: 1;
+    top: 100px;
+  }
+}
+
+@media (max-width: 750px) {
+  .main {
+    position: absolute;
+    width: 400px;
+  }
+  .about {
+    position: absolute;
+    width: 390px;
+    left: 0.2rem;
+    height: 1100px;
+    top: 3550px;
+  }
+  .about_header {
+    position: absolute;
+    width: 350px;
+    height: 392px;
+    left: -120px;
+    top: -230px;
+  }
+  .about_pra {
+    position: absolute;
+    width: 327px;
+    height: 144px;
+    left: -120px;
+    top: 10px;
+  }
+  .socil_txt {
+    position: absolute;
+    width: 117px;
+    height: 24px;
+    left: -120px;
+    top: 145px;
+  }
+  .soc_Media {
+    position: absolute;
+    left: -120px;
+    top: 180px;
+  }
+  .btn_resum {
+    left: -120px;
+    top: 235px;
+  }
+  .Skill_List {
+    display: flex;
+    left: auto;
+  }
+  .arrow {
+    position: absolute;
+    top: 315px;
+    left: 300px;
+  }
+  .langa {
+    position: absolute;
+    left: 30px;
+    top: 280px;
+  }
+  .fjva {
+    position: absolute;
+    width: 303px;
+    height: 66.72px;
+    left: 20px;
+    padding: 10px;
+    top: 390px;
+  }
+  .fjva p {
+    font-size: larger;
+    height: 24px;
+    left: 90px;
+    top: 15%;
+  }
+  .fhtml {
+    position: absolute;
+    width: 303px;
+    height: 66.72px;
+    left: 20px;
+    padding: 10px;
+    top: 490px;
+  }
+  .fhtml p {
+    position: absolute;
+    height: 24px;
+    left: 100px;
+    top: 15%;
+  }
+  .fcss {
+    position: absolute;
+    width: 303px;
+    height: 66.72px;
+    left: 20px;
+    padding: 10px;
+    top: 590px;
+  }
+  .fcss p {
+    position: absolute;
+    height: 24px;
+    left: 100px;
+    right: 25px;
+    top: 15%;
+  }
+  .arrow_one {
+    position: absolute;
+    left: 290px;
+    top: 720px;
+  }
+  .Frame {
+    position: absolute;
+    left: 20px;
+    top: 720px;
+  }
+  .line_one {
+    position: absolute;
+    left: 15px;
+    top: 780px;
+  }
+  .arrow_two {
+    position: absolute;
+    left: 290px;
+    top: 810px;
+  }
+  .skll {
+    position: absolute;
+    left: 20px;
+    top: 810px;
+  }
+  .line_two {
+    position: absolute;
+    left: 15px;
+    top: 870px;
+  }
+}
+@media (max-width: 750px) {
+  .contact {
+    position: absolute;
+    width: 390px;
+    height: 1000px;
+    top: 4750px;
+    left: 0.01rem;
+  }
+  .contact_bg {
+    display: none;
+  }
+  .mobile-contact_bg {
+    background-image: url(Images/contact\ form\ shapes-mobile@2x.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 265px;
+    height: 850px;
+    left: 125px;
+    top: 50px;
+  }
+  .Contact_me {
+    left: 90px;
+  }
+  .Contact_text {
+    font-size: 22px;
+    line-height: 35px;
+    top: 220px;
+    width: 320px;
+    height: 150px;
+    left: 50px;
+  }
+  
+.name-box {
+  left: 20px;
+  top: 440px;
+  height: 48px;
+}
+.email-box {
+  left: 20px;
+  top: 520px;
+  height: 48px;
+}
+.msg_box {
+  left: 20px;
+  top: 600px;
+  height: 215px;
+}
+.last-btn {
+  display:flex;
+  top: 850px;
+  left: 30px;
+  height: 55px;
+  width: 170px;
+  padding: 15px 30px;
+}
+.line-shape {
+  position: absolute;
+  width: 250px;
+  height: 5px;
+  left: 20%;
+  bottom: 8px;
+  background: #0d151e;
+  border-radius: 10px;
+}
 }
