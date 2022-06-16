@@ -7,7 +7,7 @@ Click the link : [@Portfolio: desktop version:](https://saruuja.github.io/Deskto
 
 # Project Name
 
-> Desktop_version
+>Portoflio: Desktop and Mobile Version
 
 ## Built With
 
