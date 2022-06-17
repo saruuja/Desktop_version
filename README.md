@@ -1,13 +1,9 @@
 
-### Deployment with GitHub Pages
--This is my first time i would use GitHub Pages to deploy web pages to see that please.
-Click the link : [@Portfolio: desktop version:](https://saruuja.github.io/Desktop_version/)
-
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # Project Name
 
-> Desktop_version
+>Portoflio: Desktop and Mobile Version
 
 ## Built With
 

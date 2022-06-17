@@ -11,18 +11,27 @@
     <main class="main">
       <div class="header_section">
         <header>
-          <img src="Images/Logo.png" alt="Logo_image" class="logo" />
+          <h1 class="logo">Sara Moha</h1>
         </header>
-        <nav>
-          <ul>
-            <li><a href="#">Portoflio</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
-          </ul>
-        </nav>
+        <div id="sideNav">
+          <nav class="nav-bar">
+              <ul>
+                 <li><a href="#Work-Section">Portoflio</a></li>
+                 <br>
+                  <li><a href="#about">About</a></li>
+                  <br>
+                  <li><a href="#contact">Contact</a></li>
+              </ul>
+          </nav>
       </div>
+      </div>
+      <div id="menuBtn">
+        <img src="Images/menu.png"alt="menu" id="menu"/>
+    </div>
+            <div class="mobile-Header_bg"></div>
       <ul>
-        <li class="Header_bg"></li>
+        <li class="desktop-Header_bg"></li>
+        
       </ul>
       <div class="banner_txt">
         <h1 class="banner_header">I’m Sara Mohamad Glad to see you!</h1>
@@ -54,7 +63,7 @@
       <!--Work Section-->
       <section class="Works_sectio">
         <!--card works one-->
-        <div class="card-works-one">
+        <div class="card-works-one" id="Work-Section">
           <img src="Images/Portfolio1.png" alt="Portfolio" class="Portfolio" />
           <h2 class="Project_Title">Tonic</h2>
           <h3 class="CANOPY">CANOPY</h3>
@@ -163,7 +172,7 @@
           <button type="submit" class="secon_btn">See Project</button>
         </div>
       </section>
-      <div class="about">
+      <div class="about" id="about">
         <div class="about_txt">
           <h1 class="about_header">About Myself</h1>
           <p class="about_pra">
@@ -219,7 +228,7 @@
           </ul>
         </div>
       </div>
-      <div class="contact">
+      <div class="contact" id="contact">
         <ul>
           <li class="contact_bg"></li>
         </ul>
@@ -250,7 +259,10 @@
           </li>
         </ul>
       </form>
+      <div class="mobile-contact_bg"></div>
+      <div class="line-shape"> </div>
     </div>
+    <script src="script.js"></script>
     </main>
   </body>
 </html>
